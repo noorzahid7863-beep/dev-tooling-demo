@@ -1,0 +1,16 @@
+{
+  "name": "dev-tooling-demo",
+  "version": "1.0.0",
+  "description": "Developer Tooling Demo - Environment Config & Scripts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
